@@ -214,7 +214,8 @@ new Vue({
       window.speechSynthesis.speak(speechSynth);
     },
     timerResetMessage: function timerResetMessage() {
-      speechSynth.text = "Timer reset. Time left " + (this.activeReminder.durationInMinutes) + " " + (this.activeReminder.durationInMinutes > 1 ? 'minutes': 'minute');
+      //speechSynth.text = "Reiniciando temporizador. Faltam " + (this.activeReminder.durationInMinutes)/60 + " " + (this.activeReminder.durationInMinutes > 1 ? 'segundos': 'minute');
+      speechSynth.text = "Reiniciando temporizador. Faltam " + (this.activeReminder.durationInMinutes) + " " + 'minutos');
       window.speechSynthesis.speak(speechSynth);
     },
     reset: function reset() {
