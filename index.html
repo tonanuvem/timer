@@ -160,6 +160,16 @@
             </div>
         </div>
         <button 
+            @click="start"
+        >
+            {{ percentsLeft > 0 ? activeReminder.buttonTxt : 'Iniciar' }}
+        </button>
+        <button 
+            @click="pause"
+        >
+            {{ percentsLeft > 0 ? activeReminder.buttonTxt : 'Pause' }}
+        </button>
+        <button 
             @click="reset"
         >
             {{ percentsLeft > 0 ? activeReminder.buttonTxt : 'Reiniciar' }}
