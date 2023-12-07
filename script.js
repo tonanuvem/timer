@@ -45,9 +45,9 @@ function guid() {
 
 var settings = {
   water: {
-    warningMsg: 'Remember to drink',
-    timeIsUpMsg: 'Time\'s up. You really need to drink now',
-    buttonTxt: 'Drink',
+    warningMsg: 'Lembre de beber sua água.',
+    timeIsUpMsg: 'Tempo acabou. Iniciar próxima série do exercício.',
+    buttonTxt: 'Água',
     waveFrontColor: '#32BAFA',
     waveBackColor: '#2C7FBE',
     stageBg: '#1E384C',
